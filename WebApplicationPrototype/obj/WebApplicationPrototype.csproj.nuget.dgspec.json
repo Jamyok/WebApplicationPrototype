@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jamyd\\.vscode\\extensions\\ms-dotnettools.vscode-dotnet-pack-1.0.13\\misc\\WebApplicationPrototype\\WebApplicationPrototype\\WebApplicationPrototype.csproj": {}
+    "C:\\Users\\jamyd\\WebApplicationPrototype\\WebApplicationPrototype\\WebApplicationPrototype.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jamyd\\.vscode\\extensions\\ms-dotnettools.vscode-dotnet-pack-1.0.13\\misc\\WebApplicationPrototype\\WebApplicationPrototype\\WebApplicationPrototype.csproj": {
+    "C:\\Users\\jamyd\\WebApplicationPrototype\\WebApplicationPrototype\\WebApplicationPrototype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jamyd\\.vscode\\extensions\\ms-dotnettools.vscode-dotnet-pack-1.0.13\\misc\\WebApplicationPrototype\\WebApplicationPrototype\\WebApplicationPrototype.csproj",
+        "projectUniqueName": "C:\\Users\\jamyd\\WebApplicationPrototype\\WebApplicationPrototype\\WebApplicationPrototype.csproj",
         "projectName": "WebApplicationPrototype",
-        "projectPath": "C:\\Users\\jamyd\\.vscode\\extensions\\ms-dotnettools.vscode-dotnet-pack-1.0.13\\misc\\WebApplicationPrototype\\WebApplicationPrototype\\WebApplicationPrototype.csproj",
+        "projectPath": "C:\\Users\\jamyd\\WebApplicationPrototype\\WebApplicationPrototype\\WebApplicationPrototype.csproj",
         "packagesPath": "C:\\Users\\jamyd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jamyd\\.vscode\\extensions\\ms-dotnettools.vscode-dotnet-pack-1.0.13\\misc\\WebApplicationPrototype\\WebApplicationPrototype\\obj\\",
+        "outputPath": "C:\\Users\\jamyd\\WebApplicationPrototype\\WebApplicationPrototype\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jamyd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
