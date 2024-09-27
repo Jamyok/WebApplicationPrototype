@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Admin Input Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input[type="text"], 
+        input[type="email"], 
+        input[type="tel"], 
+        input[type="date"], 
+        textarea, 
+        select {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="file"] {
+            padding: 5px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        .form-group-row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .form-group-row .form-group {
+            flex: 0 0 48%;
+        }
+
+        .btn-submit {
+            width: 20%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn-submit:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Admin Input Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label for="ethnicity">Race/Ethnicity</label>
+                <select id="ethnicity" name="ethnicity" required>
+                    <option value="" disabled selected>Select your race/ethnicity</option>
+                    <option value="American Indian or Alaska Native">American Indian or Alaska Native</option>
+                    <option value="Asian">Asian</option>
+                    <option value="Black or African American">Black or African American</option>
+                    <option value="Hispanic or Latino">Hispanic or Latino</option>
+                    <option value="Native Hawaiian or Other Pacific Islander">Native Hawaiian or Other Pacific Islander</option>
+                    <option value="White">White</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Cell Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="institution">Institution/School/Youth Group and Subgroup or Team</label>
+                <input type="text" id="institution" name="institution">
+            </div>
+
+            <div class="form-group">
+                <label for="knowledge">Participants' Knowledge and Experience with Finances</label>
+                <textarea id="knowledge" name="knowledge" placeholder="Before, During, and After the Program"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="savings">Amount Participant has in Savings</label>
+                <textarea id="savings" name="savings" placeholder="Before, During, and After the Program"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="screenshot">Upload Screenshot of Savings</label>
+                <input type="file" id="screenshot" name="screenshot" accept="image/*">
+            </div>
+
+            <div class="form-group">
+                <label for="bankAccount">Did Participant Open a Bank Account as a Result of the Program?</label>
+                <select id="bankAccount" name="bankAccount">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="bankUsage">How Often a Bank Account is Used</label>
+                <textarea id="bankUsage" name="bankUsage" placeholder="At the Start and End of the Program"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="conversations">New Financial Conversations with Friends and Family</label>
+                <textarea id="conversations" name="conversations"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="habits">Financial Habits Implemented and Continued</label>
+                <textarea id="habits" name="habits" placeholder="Tracking Spending, Budgeting, etc."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="steps">Additional Steps Taken and Resources Accessed</label>
+                <textarea id="steps" name="steps"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="goal">Student’s Personal S.M.A.R.T. Financial Goal</label>
+                <textarea id="goal" name="goal"></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
