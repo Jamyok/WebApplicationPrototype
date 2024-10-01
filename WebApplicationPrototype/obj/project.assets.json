@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jamyd\\.nuget\\packages\\": {}
+    "C:\\Users\\Mlwan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jamyd\\WebApplicationPrototype\\WebApplicationPrototype\\WebApplicationPrototype.csproj",
+      "projectUniqueName": "C:\\Users\\Mlwan\\WebApplicationPrototype\\WebApplicationPrototype\\WebApplicationPrototype.csproj",
       "projectName": "WebApplicationPrototype",
-      "projectPath": "C:\\Users\\jamyd\\WebApplicationPrototype\\WebApplicationPrototype\\WebApplicationPrototype.csproj",
-      "packagesPath": "C:\\Users\\jamyd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jamyd\\WebApplicationPrototype\\WebApplicationPrototype\\obj\\",
+      "projectPath": "C:\\Users\\Mlwan\\WebApplicationPrototype\\WebApplicationPrototype\\WebApplicationPrototype.csproj",
+      "packagesPath": "C:\\Users\\Mlwan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mlwan\\WebApplicationPrototype\\WebApplicationPrototype\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jamyd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mlwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
