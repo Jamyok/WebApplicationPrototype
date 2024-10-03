@@ -21,3 +21,11 @@ build_property._RazorSourceGeneratorDebug =
 [C:/Users/Mlwan/WebApplicationPrototype/WebApplicationPrototype/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mlwan/WebApplicationPrototype/WebApplicationPrototype/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mlwan/WebApplicationPrototype/WebApplicationPrototype/Views/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

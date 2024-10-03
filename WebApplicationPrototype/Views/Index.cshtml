@@ -1,0 +1,109 @@
+@model AdminUser.Models.AdminInputFormModel
+
+@{
+    ViewData["Title"] = "Admin Input Form";
+}
+
+<div class="container">
+    <h2>@ViewData["Title"]</h2>
+    
+    <form asp-action="Submit" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Dob"></label>
+            <input asp-for="Dob" class="form-control" />
+            <span asp-validation-for="Dob" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Ethnicity"></label>
+            <select asp-for="Ethnicity" class="form-control">
+                <option value="" disabled selected>Please select your race/ethnicity</option>
+                <option value="American Indian or Alaska Native">American Indian or Alaska Native</option>
+                <option value="Asian">Asian</option>
+                <option value="Black or African American">Black or African American</option>
+                <option value="Hispanic or Latino">Hispanic or Latino</option>
+                <option value="Native Hawaiian or Other Pacific Islander">Native Hawaiian or Other Pacific Islander</option>
+                <option value="White">White</option>
+                <option value="Other">Other</option>
+            </select>
+            <span asp-validation-for="Ethnicity" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Phone"></label>
+            <input asp-for="Phone" class="form-control" />
+            <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Institution"></label>
+            <input asp-for="Institution" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Knowledge"></label>
+            <textarea asp-for="Knowledge" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Savings"></label>
+            <textarea asp-for="Savings" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Screenshot"></label>
+            <input asp-for="Screenshot" type="file" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BankAccount"></label>
+            <select asp-for="BankAccount" class="form-control">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="BankUsage"></label>
+            <textarea asp-for="BankUsage" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Conversations"></label>
+            <textarea asp-for="Conversations" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Habits"></label>
+            <textarea asp-for="Habits" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Steps"></label>
+            <textarea asp-for="Steps" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Goal"></label>
+            <textarea asp-for="Goal" class="form-control"></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Submit</button>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
